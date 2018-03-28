@@ -666,7 +666,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 1\n";
 
 float *shifted_data_r;
 float *shifted_data_c;
@@ -986,7 +986,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 2\n";
 
 float *shifted_data_r;
 float *shifted_data_c;
@@ -1682,7 +1682,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 3\n";
 
 float *shifted_data_r;
 float *shifted_data_c;
@@ -2001,7 +2001,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 4\n";
 
 float *shifted_data_r;
 float *shifted_data_c;
@@ -2421,7 +2421,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 5\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -2843,7 +2843,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 6\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -3214,7 +3214,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 7\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -3657,7 +3657,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 8\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -4102,7 +4102,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 9\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -4494,7 +4494,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 10\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -4951,7 +4951,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 11\n";
 
 float *Cij = (float*)calloc(nDir*nBaseline, sizeof(float));
 
@@ -6907,7 +6907,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 12\n";
 
 float *Cij = (float*)calloc(nLayer*nDir*nBaseline, sizeof(float));
 
@@ -7751,7 +7751,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 13\n";
 
 float *Cij = (float*)calloc(nLayer*nDir*nBaseline, sizeof(float));
 
@@ -8595,7 +8595,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 14\n";
 
 float *Cij = (float*)calloc(nLayer*nDir*nBaseline, sizeof(float));
 
@@ -9353,7 +9353,7 @@ recoDelaysBuffer = clCreateBuffer(clEnv->context, CL_MEM_READ_WRITE | CL_MEM_COP
 } else {
 cerr<<"recoPolType not defined\n"; return -1;
 }
-cout<<"recoDelaysBuffer created\n";
+cout<<"recoDelaysBuffer created 15\n";
 
 /*
  * Compute cross-correlation coefficients Cij in each direction

@@ -3,7 +3,7 @@
 
 programFile=kernel_3D_analysis.c
 nSideExp=6
-nLayer=50
+nLayer=5
 dataType=1
 triggerCode=110
 layerAllocationMode=0
